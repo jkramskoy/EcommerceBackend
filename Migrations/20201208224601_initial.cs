@@ -15,7 +15,8 @@ namespace backend.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Price = table.Column<double>(nullable: false),
-                    PhotoPath = table.Column<string>(nullable: true)
+                    PhotoPath = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

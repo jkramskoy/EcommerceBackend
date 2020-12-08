@@ -41,7 +41,8 @@ namespace backend.Controllers
                 Id = id,
                 Name = value.Name,
                 Price = value.Price,
-                PhotoPath = value.PhotoPath
+                PhotoPath = value.PhotoPath,
+                Description = value.Description
             };
 
             _context.Products.Add(pr);

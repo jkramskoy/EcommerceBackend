@@ -4,4 +4,5 @@ public class Product
     public string Name { set; get; }
     public double Price { set; get; }
     public string PhotoPath { set; get; }
+    public string Description { set; get; }
 }
